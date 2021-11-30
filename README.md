@@ -1,0 +1,2 @@
+# SeaWolf
+Discord Awards Bot
