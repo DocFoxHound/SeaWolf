@@ -22,7 +22,7 @@ public class Bot {
     public static void main(String[] args) throws IOException {
         String token;
         //get the token
-        try (InputStream input = new FileInputStream("src/main/java/config.properties")){
+        try (InputStream input = new FileInputStream("config.properties")){
             Properties prop = new Properties();
             prop.load(input);
             token = prop.getProperty("app.token");
